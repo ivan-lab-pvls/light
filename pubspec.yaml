@@ -1,0 +1,32 @@
+name: mahjong
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  flutter_svg: ^2.0.9
+  in_app_review: ^2.0.6
+  flutter_inappwebview: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/images/cards/
+    - assets/images/levels/
+    - assets/images/
+
+  uses-material-design: true
