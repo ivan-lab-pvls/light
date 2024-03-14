@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:in_app_review/in_app_review.dart';
 
 import '../../../util/app_routes.dart';
-import '../../app/view/my_in_app_web_view.dart';
+import '../../app/view/config.dart';
 import '../../app/widget/navigation_button.dart';
 
 import '../../consts/app_text_style/settings_style.dart';
@@ -92,8 +92,8 @@ class SettingsScreen extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const ShowText(
-                                  url: 'https://docs.google.com/document/d/1SbDkSviefjVIUpxEHhfs9vmaKisRgrzfgMnFhd5I8BM/edit?usp=sharing'),
+                              builder: (context) => const Texax(
+                                  xas: 'https://docs.google.com/document/d/1SbDkSviefjVIUpxEHhfs9vmaKisRgrzfgMnFhd5I8BM/edit?usp=sharing'),
                             ),
                           );
                         },
@@ -117,8 +117,8 @@ class SettingsScreen extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const ShowText(
-                                  url: 'https://docs.google.com/document/d/1z3fpkq0OlGMtHWub_-gEjy0Acg_r5Mh3DljnfJGMEvE/edit?usp=sharing'),
+                              builder: (context) => const Texax(
+                                  xas: 'https://docs.google.com/document/d/1z3fpkq0OlGMtHWub_-gEjy0Acg_r5Mh3DljnfJGMEvE/edit?usp=sharing'),
                             ),
                           );
                         },

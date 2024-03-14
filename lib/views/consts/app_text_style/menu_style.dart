@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+ String promo = '';
 class ResultTextStyle {
   static const TextStyle resultTitle = TextStyle(
     fontFamily: 'Bebas Neue',

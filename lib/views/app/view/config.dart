@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
-class ShowText extends StatelessWidget {
-  final String url;
+class Texax extends StatelessWidget {
+  final String xas;
 
-  const ShowText({super.key, required this.url});
+  const Texax({super.key, required this.xas});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class ShowText extends StatelessWidget {
         backgroundColor: Colors.purple,
       ),
       body: InAppWebView(
-        initialUrlRequest: URLRequest(url: WebUri(url)),
+        initialUrlRequest: URLRequest(url: WebUri(xas)),
       ),
     );
   }

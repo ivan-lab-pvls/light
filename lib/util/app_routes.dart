@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mahjong/data/repository/promotion.dart';
 
 import '../views/app/view/splash.dart';
 import '../views/levels/view/first_level_screen.dart';
@@ -19,6 +20,7 @@ abstract class AppRoutes {
   static const progress = 'progress';
   static const splash = '/splash';
   static const onboarding = 'onboarding';
+  static const promo = 'promo';
 
   static MaterialPageRoute onGenerateRoute(RouteSettings settings) {
     final Widget child;
@@ -36,6 +38,8 @@ abstract class AppRoutes {
         child = const SecondLevelScreen();
       case progress:
         child = const ProgressScreen();
+      case promo:
+        child = const PromotionScreen();
       default:
         child = const SplashScreen(
           homeRoute: AppRoutes.home,
